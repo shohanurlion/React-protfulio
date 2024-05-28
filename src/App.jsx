@@ -13,14 +13,12 @@ import "slick-carousel/slick/slick.css";
 import Bloger from './Components/Blogerpag/Bloger';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Menu from './Menu';
-import { Dots } from 'react-preloaders';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <Dots/>
     <Menu/>
     <Banner/>
     <About/>
