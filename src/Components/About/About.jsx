@@ -14,7 +14,7 @@ import aboutimg from '../../assets/img/liton2.jpg'
                         <img src={aboutimg} alt="" />
                     </div>
                 </Col>
-                <Col sm={12} md={6} data-aos="fade-right">
+                <Col sm={12} md={6}>
                     <div className="about_content">
                         <div className='section-header'>
                         <p>Learn About Me</p>
@@ -23,7 +23,7 @@ import aboutimg from '../../assets/img/liton2.jpg'
                             <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida</h5>
                         </div>
                         </div>
-                        <a href="" className='btn'>Learn More</a>
+                        <a href="#" className='btn'>Learn More</a>
                     </div>
                     
                 </Col>
