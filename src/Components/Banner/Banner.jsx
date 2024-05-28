@@ -15,7 +15,7 @@ export default function Banner() {
                     <div className="hero_text">
                         <p>I'm</p>
                         <h1>MD.Liton Rahman</h1>
-                        <h3><ReactTyped strings={["Front-End Development.","Apps Designer"]} typeSpeed={40} loop /></h3>
+                        <h3><ReactTyped strings={["Front-End Developer.","Apps Designer"]} typeSpeed={40} loop /></h3>
                     </div>
                     <div className="hero_btn">
                         <a href="#" className='btn'>Hire Me</a>
