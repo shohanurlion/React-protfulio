@@ -1,0 +1,111 @@
+#banner {
+    background-color: #E4223D;
+    position: relative;
+    width: 100%;
+    margin-bottom: 45px;
+    padding: 120px 0px 0px 0px;
+    overflow: hidden;
+}
+
+.hero_content{
+        position: relative;
+        display: flex;
+        padding-left: 75px;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+}
+.hero_text p{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px
+}
+.hero_text h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 15px
+}
+.hero_text h3{
+    display: inline-block;
+    margin: 0;
+    height: 35px;
+    color: #fff;
+    font-size: 35px !important;
+    font-weight: bold;
+}
+.hero_btn .btn:first-child {
+    margin-right: 10px;
+}
+.hero_btn .btn {
+    margin-top: 35px;
+    color: #EF233C;
+    background: #fff;
+    box-shadow: inset 0 0 0 50px #ffffff;
+}
+.hero_btn .btn:hover {
+    color: #fff;
+    background: transparent;
+    box-shadow: inset 0 0 0 0 #ffffff;
+    border-color: #fff;
+}
+
+.hero_img{
+    position: relative;
+    text-align: right;
+    padding-right: 75px;
+}
+.hero_img .heroimg_custom{
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+@media (max-width: 575.98px) {
+    #banner {
+        padding: 23px 0px 46px 0px;
+    }
+    .hero_text h1{
+        color: #fff;
+        font-size: 60px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        margin-bottom: 15px
+    }
+    .hero_text h3{
+        display: inline-block;
+        margin: 0;
+        height: 35px;
+        color: #fff;
+        font-size: 25px !important;
+        font-weight: bold;
+    }
+
+}
+@media (max-width: 767.98px) {
+    #banner {
+        padding: 23px 0px 46px 0px;
+    }
+    .hero_text h1{
+        color: #fff;
+        font-size: 60px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        margin-bottom: 15px
+    }
+    .hero_text h3{
+        display: inline-block;
+        margin: 0;
+        height: 35px;
+        color: #fff;
+        font-size: 25px !important;
+        font-weight: bold;
+    }
+}
+@media (max-width: 992px) {
+    #banner {
+        padding: 23px 0px 46px 0px;
+    }
+}

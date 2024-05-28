@@ -1,0 +1,78 @@
+.contact {
+    position: relative;
+    width: 100%;
+    margin: 45px 0;
+    background: #EF233C
+}
+
+.contact .container-fluid {
+    background: url(../../assets/img/shohan.jpeg) left center no-repeat;
+    background-size: contain
+}
+
+.contact .contact-form {
+    position: relative;
+    padding: 90px 0 90px 45px;
+    background: #EF233C
+}
+
+.contact .contact-form input {
+    color: #fff;
+    padding: 15px 0;
+    background: none;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid rgba(256,256,256,.5)
+}
+
+.contact .contact-form textarea {
+    color: #fff;
+    height: 90px;
+    padding: 15px 0;
+    background: none;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid rgba(256,256,256,.5)
+}
+
+.contact .contact-form .form-control::placeholder {
+    color: #fff;
+    opacity: 1
+}
+
+.contact .contact-form .form-control:-ms-input-placeholder,.contact .contact-form .form-control::-ms-input-placeholder {
+    color: #fff
+}
+
+.contact .contact-form .btn {
+    margin-top: 35px;
+    color: #EF233C;
+    background: #fff;
+    box-shadow: inset 0 0 0 50px #ffffff
+}
+
+.contact .contact-form .btn:hover {
+    color: #fff;
+    background: transparent;
+    box-shadow: inset 0 0 0 0 #ffffff;
+    border-color: #fff
+}
+
+.contact .help-block ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 14px;
+    font-style: italic;
+    color: #fff
+}
+@media (max-width: 767.98px) {
+    .contact .container-fluid {
+        background:none
+    }
+
+    .contact .contact-form {
+        padding: 90px 0
+    }
+}
+

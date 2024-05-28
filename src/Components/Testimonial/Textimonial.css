@@ -1,0 +1,38 @@
+#testimonial{
+    background-color: #EF233C;
+    padding:100px 0px;
+    position: relative;
+}
+.slick-arrow{
+ display: none !important;
+}
+#testimonial .slick-dots{
+    position:absolute;
+    left:50%;
+    top:110%;
+    bottom:0;
+    transform: translate(-50%,-110%);
+}
+#testimonial .slick-dots li{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    background-color: rgb(12, 1, 1);
+    border-radius: 50%;
+    margin: 0 3px;
+  
+}
+#testimonial .slick-dots li button{
+    width:10px;
+    height:10px;
+    background-color: white;
+    color:transparent;
+    border-radius: 50%;
+   border:none;
+   margin-top: 5px;
+   margin-left: 5px;
+   opacity: 0;
+}
+#testimonial .slick-dots li.slick-active button{
+    opacity: 1;
+}
