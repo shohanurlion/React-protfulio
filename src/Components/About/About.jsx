@@ -14,7 +14,7 @@ import aboutimg from '../../assets/img/liton2.jpg'
                         <img src={aboutimg} alt="" />
                     </div>
                 </Col>
-                <Col sm={12} md={6}>
+                <Col sm={12} md={6} data-aos="fade-right">
                     <div className="about_content">
                         <div className='section-header'>
                         <p>Learn About Me</p>

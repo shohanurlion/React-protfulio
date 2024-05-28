@@ -10,7 +10,7 @@ import Hedar from '../../Reuseable/Hedercard/Hedar';
     <>
         <div className="services" id="servicess">
             <Container>
-                <div className='service_titel'>
+                <div className='service_titel' data-aos="fade-left">
                  <Hedar subtitel="What I do" titel="Awesome Quality Services"/>
                 </div>
                 <Row>
