@@ -18,8 +18,8 @@ export default function Banner() {
                         <h3><ReactTyped strings={["Front-End Developer.","Apps Designer"]} typeSpeed={40} loop /></h3>
                     </div>
                     <div className="hero_btn">
-                        <a href="#" className='btn'>Hire Me</a>
-                        <a href="#" className='btn'>Contact Me</a>
+                        <a href="#servicess" className='btn'>Hire Me</a>
+                        <a href="#contacts" className='btn'>Contact Me</a>
                     </div>
                 </div>
             </Col>
