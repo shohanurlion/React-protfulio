@@ -60,3 +60,40 @@
     font-size: 16px !important;
     margin-bottom: 20px;
 }
+#about .skills {
+    margin-bottom: 30px
+}
+
+#about .skill-name {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#about .section-header {
+    position: relative;
+    margin-bottom: 45px;
+    padding: 126px 0px 29px 0px;
+}
+#about.skill-name p {
+    /* display: inline-block; */
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400
+}
+
+
+#about .progress {
+    height: 10px;
+    border-radius: 10px;
+    background: #ddd;
+}
+
+#about .progress .progress-bar {
+    width: 0;
+    background: #EF233C;
+    border-radius: 10px;
+    transition: 2s
+}
+
+
